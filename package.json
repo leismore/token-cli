@@ -1,0 +1,45 @@
+{
+  "name": "@leismore/token-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool to generate cryptography tokens.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "lm-token": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "mocha ./test/test.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/token-cli.git"
+  },
+  "keywords": [
+    "Leismore",
+    "Token",
+    "CLI"
+  ],
+  "author": {
+    "name": "Kyle Chine",
+    "email": "kyle.chine@leismore.co",
+    "url": "https://kyle-chine.leismore.co"
+  },
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/token-cli/issues"
+  },
+  "homepage": "https://github.com/leismore/token-cli#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.6",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@leismore/token": "^6.0.0"
+  }
+}
