@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { token } from './lib/token';
 
 token.then(token => {
