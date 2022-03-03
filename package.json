@@ -1,6 +1,6 @@
 {
   "name": "@leismore/token-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command-line tool to generate cryptography tokens.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
